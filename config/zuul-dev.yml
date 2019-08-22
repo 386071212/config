@@ -1,9 +1,14 @@
 spring:
   application:
     name: zuul
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
 
 server:
-  port: 3001
+  port: 3001 
 
 eureka:
   client:
